@@ -20,6 +20,8 @@ export default function Search() {
 
     const url = `https://www.amazon.com/s?${params.toString()}`;
 
+    setKeyword('');
+
     window.open(url);
   }
 
